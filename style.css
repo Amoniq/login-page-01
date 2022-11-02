@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f6f9ff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.login-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+    
+.logo {
+    width: 100px;
+}
+
+form {
+    width: 360px;
+}
+    
+form h2 {
+    font-weight: 600;
+    margin: 15px 0;
+    position: relative;
+    color: #434343;
+}
+
+form h2::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #536dfe, #96a0e6);
+}
+
+.input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #434343;
+}
+    
+.input-field {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #96a0e6;
+}
+
+.input-field div {
+    position: relative;
+    height: 45px;
+}
+
+.input-field.one {
+    margin-bottom: 0;
+}
+    
+.input-field.two {
+    margin-bottom: 10px;
+}
+    
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.icons i {
+    color: #999;
+}
+    
+a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #434343;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+a.register {
+    text-align: left;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #6C63FF;
+}
+
+span {
+    font-size: 1rem;
+    color: #434343;
+}
+    
+.btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, #536dfe, #96a0e6);
+    cursor: pointer;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    background-size: 400%;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #536dfe, #96a0e6);
+    letter-spacing: 0.5px;
+}
